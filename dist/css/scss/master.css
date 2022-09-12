@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+.h1 {
+  font-size: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+h2,
+.h2 {
+  font-size: 2.5rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+h3,
+.h3 {
+  font-size: 2.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+h4,
+.h4 {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.8rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+h6,
+.h6 {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.subtitle,
+.subtitle-2,
+.body2,
+.caption,
+.overline {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.subtitle-1 {
+  font-size: 1rem;
+}
+
+.subtitle-2 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.body2 {
+  font-size: 0.8rem;
+}
+
+.caption {
+  font-size: 0.6rem;
+}
+
+.overline {
+  font-size: 0.5rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+b,
+strong,
+.bold,
+.strong {
+  font-weight: 600;
+}
+
+i,
+em,
+.italic {
+  font-style: italic;
+}
+
+del,
+s,
+.del {
+  text-decoration: line-through;
+}
+
+ins,
+u,
+.underlined {
+  text-decoration: underline;
+}
