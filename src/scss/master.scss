@@ -3,6 +3,12 @@
 // Variables
 @import "./_variables.scss";
 
+// Root
 @import "./_root.scss";
+
+// Typography
 @import "./_typography.scss";
+
+// Layout
 @import "./_container.scss";
+@import "./appbar.scss";
