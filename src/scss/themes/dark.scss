@@ -1,0 +1,29 @@
+$white: #fbfef9;
+$black: #191919;
+$info: #00a1e4;
+$warning: #f5b700;
+$highligth: #fcf6b1;
+
+body {
+  background-color: $black;
+  color: $white;
+}
+
+a {
+  color: $info;
+
+  &:visited {
+    color: $info;
+  }
+}
+
+mark {
+  background-color: $highligth;
+}
+
+code,
+kbd {
+  background-color: $white;
+  color: $black;
+  border-radius: 4px;
+}
