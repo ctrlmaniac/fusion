@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@ctrlmaniac/vanilla-sidebar@^1.3.0":
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/@ctrlmaniac/vanilla-sidebar/-/vanilla-sidebar-1.3.5.tgz#53fe15211a4f88e37d0e99588391a5589c186f37"
+  integrity sha512-Rh4R1IMHojXLY1ccxr60cUHZFkQSknJPOwtoWSqAZjTuW1YhbMT6LsldPpHDmscp0spKT5HTD9sCGd/mI0w/2g==
+
 "@discoveryjs/json-ext@^0.5.0":
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/@discoveryjs/json-ext/-/json-ext-0.5.7.tgz#1d572bfbbe14b7704e0ba0f39b74815b84870d70"
