@@ -1,0 +1,24 @@
+{
+  "name": "rootscss",
+  "version": "0.0.1",
+  "description": "Another opinionated css framework",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctrlmaniac/rootscss.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "framework"
+  ],
+  "author": "Davide Di Criscito <davide.dicriscito@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ctrlmaniac/rootscss/issues"
+  },
+  "homepage": "https://github.com/ctrlmaniac/rootscss#readme"
+}
