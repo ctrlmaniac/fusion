@@ -12,8 +12,5 @@ function buildStyles() {
 }
 
 exports.buildStyles = buildStyles;
-exports.watch = function () {
-  gulp.watch("./src/**/*.scss", ["sass"]);
-};
 
 exports.default = series(buildStyles);
