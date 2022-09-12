@@ -1,0 +1,16 @@
+$white: #fbfef9;
+$black: #191919;
+$info: #00a1e4;
+$warning: #f5b700;
+
+body {
+  background-color: $white;
+}
+
+a {
+  color: $info;
+
+  &:visited {
+    color: $info;
+  }
+}
