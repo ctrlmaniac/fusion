@@ -177,6 +177,12 @@ u,
 kbd,
 code {
   font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+}
+
+pre {
+  white-space: pre;
+  font-weight: 400;
 }
 
 sub,

@@ -1,5 +1,12 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+:root {
+  --bp-xs: 480px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bg-xl: 1200px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -192,6 +199,12 @@ u,
 kbd,
 code {
   font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
+}
+
+pre {
+  white-space: pre;
+  font-weight: 400;
 }
 
 sub,
@@ -204,6 +217,13 @@ sup,
 .sup {
   vertical-align: super;
   font-size: 0.5rem;
+}
+
+:root {
+  --bp-xs: 480px;
+  --bp-md: 768px;
+  --bp-lg: 1024px;
+  --bg-xl: 1200px;
 }
 
 .container {

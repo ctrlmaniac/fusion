@@ -2,3 +2,10 @@ $bp-xs: 480px;
 $bp-md: 768px;
 $bp-lg: 1024px;
 $bp-xl: 1200px;
+
+:root {
+  --bp-xs: #{$bp-xs};
+  --bp-md: #{$bp-md};
+  --bp-lg: #{$bp-lg};
+  --bg-xl: #{$bp-xl};
+}
