@@ -2,6 +2,7 @@ $white: #fbfef9;
 $black: #191919;
 $info: #00a1e4;
 $warning: #f5b700;
+$highligth: #fcf6b1;
 
 body {
   background-color: $white;
@@ -13,4 +14,15 @@ a {
   &:visited {
     color: $info;
   }
+}
+
+mark {
+  background-color: $highligth;
+}
+
+code,
+kbd {
+  background-color: $black;
+  color: $white;
+  border-radius: 4px;
 }

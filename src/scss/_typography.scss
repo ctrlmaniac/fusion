@@ -179,9 +179,22 @@ code {
   font-weight: 400;
 }
 
+kbd {
+  padding: 0 8px;
+}
+
 pre {
   white-space: pre;
   font-weight: 400;
+
+  code {
+    display: block;
+    padding: 0 12px;
+    overflow-x: auto;
+    -webkit-user-select: all !important;
+    -moz-user-select: all !important;
+    user-select: all !important;
+  }
 }
 
 sub,
