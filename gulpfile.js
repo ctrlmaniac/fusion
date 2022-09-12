@@ -8,7 +8,7 @@ function buildStyles() {
   return gulp
     .src("./src/scss/master.scss")
     .pipe(sass().on("error", sass.logError))
-    .pipe(gulp.dest("./dist/master.css"));
+    .pipe(gulp.dest("./dist"));
 }
 
 exports.buildStyles = buildStyles;

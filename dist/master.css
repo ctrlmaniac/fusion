@@ -219,20 +219,30 @@ sup,
   font-size: 0.5rem;
 }
 
-:root {
-  --bp-xs: 480px;
-  --bp-md: 768px;
-  --bp-lg: 1024px;
-  --bg-xl: 1200px;
-}
-
 .container {
   max-width: 80%;
   margin: 0 auto;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: var(--bp-xs)) {
   .container {
     max-width: 100%;
     margin: 0 12px;
   }
+}
+
+:root {
+  --white: #fbfef9;
+  --black: #191919;
+  --info: #00a1e4;
+}
+
+body {
+  background-color: var(--white);
+}
+
+a {
+  color: var(--info);
+}
+a:visited {
+  color: var(--info);
 }

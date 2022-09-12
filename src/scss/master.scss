@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 // Variables
-@import "./variables.scss";
+@import "./_variables.scss";
 
-@import "./root.scss";
-@import "./typography.scss";
-@import "./container.scss";
+@import "./_root.scss";
+@import "./_typography.scss";
+@import "./_container.scss";
+
+// Themes
+@import "./themes/_light.scss";
