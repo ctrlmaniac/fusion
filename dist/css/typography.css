@@ -23,7 +23,8 @@ blockquote,
 }
 blockquote footer,
 .blockquote footer {
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-weight: 100;
 }
 blockquote footer:before,
 .blockquote footer:before {
@@ -44,6 +45,7 @@ h6,
 .h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-weight: 600;
 }
 
 h1,
