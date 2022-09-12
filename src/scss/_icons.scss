@@ -1,0 +1,18 @@
+.icon,
+.icon-button {
+  font-size: 24px;
+
+  &.start {
+    padding: 8px 8px 8px 0;
+    margin-right: 8px;
+  }
+
+  &.end {
+    padding: 8px 0 8px 8px;
+    margin-left: 8px;
+  }
+}
+
+.icon-button {
+  cursor: pointer;
+}
