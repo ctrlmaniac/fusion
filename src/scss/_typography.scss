@@ -31,11 +31,26 @@ h4,
 h5,
 .h5,
 h6,
-.h6 {
+.h6,
+.display-lg,
+.display-md,
+.display-sm {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-weight: 600;
   line-height: 1.2;
+}
+
+.display-lg {
+  font-size: 4.5rem;
+}
+
+.display-md {
+  font-size: 4rem;
+}
+
+.display-sm {
+  font-size: 3.5rem;
 }
 
 h1,
