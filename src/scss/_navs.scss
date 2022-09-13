@@ -1,0 +1,16 @@
+nav.nav {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &.inline {
+    ul {
+      display: flex;
+      list-style-type: none;
+      justify-content: space-evenly;
+      gap: 16px;
+    }
+  }
+}

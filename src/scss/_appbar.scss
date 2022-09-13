@@ -4,6 +4,22 @@
   align-items: center;
   background-color: inherit;
 
+  h1,
+  .h1,
+  h2,
+  .h2,
+  h3,
+  .h3,
+  h4,
+  .h4,
+  h5,
+  .h5,
+  h6,
+  .h6,
+  p {
+    margin-bottom: 0;
+  }
+
   &.sticky {
     position: sticky;
     top: 0;
@@ -12,11 +28,37 @@
   &.fixed {
     position: fixed;
     top: 0;
+    right: 0;
+    left: 0;
+  }
+
+  &.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
   }
 
   .container {
     width: 100%;
     display: flex;
     align-items: center;
+  }
+
+  .leading-icon {
+    cursor: pointer;
+    padding: 8px 24px 8px 8px;
+  }
+
+  .appbar-title {
+    flex-grow: 1;
+  }
+
+  nav {
+    padding-right: 24px;
+  }
+
+  .trailing-icon {
+    padding: 8px;
   }
 }
