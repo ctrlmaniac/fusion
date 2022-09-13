@@ -2,7 +2,7 @@
 
 example of usage of typography classes
 
-![Headings](./assets/typography.png)
+![Headings](./assets/typography/headings.png)
 
 ## Display Headings
 
@@ -34,6 +34,52 @@ There are 6 sizes of headings from 1, the bigger, to 6, the smaller one.
 
 `h6` or either `.h6`
 
-# Paragraph
+## Overline
+
+A bit of paragraph that goes above titles. You can use it by calling the class `.overline`.
+
+## Subtitles
+
+There are two subheadings: `.subtitle` and `.subtitle-2`.
+
+## Paragraph
 
 You can use the paragraph by simply using the html tag `p`.
+
+There's even a smaller paragraph and you can use it by calling the class `.body-2`.
+
+![subtitles and body](./assets/typography/sub-headings-body.png)
+
+## Links
+
+You can use the link component by simply using the html tag `a`
+
+![link](./assets/typography/links.png)
+
+## Abbreviations
+
+You can use the abbreviation component by simply using the html tag `abbr`, or the deprecated tag `acronym`.
+
+![abbreviation](./assets/typography/abbr.png)
+
+## Address
+
+You can use the address component by simply using the html tag `address`.
+
+![address](./assets/typography/address.png)
+
+## Inline elements
+
+`b`, `strong`, `.bold`, `.strong`
+
+`i`, `em`, `.italic`
+
+`del`, `s`, `strike`, `.del`
+
+`ins`, `u`, `.underlined`
+
+`sub`, `.sub`
+
+`sup`, `.sup`
+
+![inline elements](./assets/typography/inline.png)
