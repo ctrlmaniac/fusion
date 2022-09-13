@@ -2,7 +2,7 @@
 
 example of usage of typography classes
 
-![Headings](./assets/typography.png | width=200)
+![Headings](./assets/typography.png)
 
 ## Display Headings
 
