@@ -1,9 +1,46 @@
+@import "./_variables.scss";
+
 .container {
   max-width: 80%;
   margin: 0 auto;
 
-  @media screen and (max-width: var(--bp-xs)) {
+  @media screen and (max-width: $bp-xs) {
     max-width: 100%;
     margin: 0 12px;
+  }
+
+  &#{-lg} {
+    max-width: 100%;
+    margin: 0 12px;
+  }
+
+  &#{-md} {
+    max-width: 60%;
+    margin: 0 auto;
+
+    @media screen and (max-width: $bp-xs) {
+      max-width: 100%;
+      margin: 0 12px;
+    }
+  }
+
+  &#{-sm} {
+    max-width: 40%;
+    margin: 0 auto;
+
+    @media screen and (max-width: $bp-xs) {
+      max-width: 100%;
+      margin: 0 12px;
+    }
+  }
+
+  &#{-xs} {
+    max-width: 25%;
+    margin: 0 auto;
+
+    @media screen and (max-width: $bp-xs) {
+      max-width: 100%;
+      margin: 0 12px;
+    }
   }
 }
