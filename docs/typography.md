@@ -70,13 +70,13 @@ You can use the address component by simply using the html tag `address`.
 
 ## Inline elements
 
-`b`, `strong`, `.bold`, `.strong`
+`b`, `strong`
 
-`i`, `em`, `.italic`
+`i`, `em`
 
-`del`, `s`, `strike`, `.del`
+`del`, `s`, `strike`
 
-`ins`, `u`, `.underlined`
+`ins`, `u`
 
 `sub`, `.sub`
 

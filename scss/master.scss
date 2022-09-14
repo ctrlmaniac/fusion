@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import "node_modules/@tabler/icons/iconfont/tabler-icons.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap");
 
 // Variables
 @import "./_variables.scss";
@@ -12,6 +11,7 @@
 
 // Typography
 @import "./_typography.scss";
+@import "./_text-utilities.scss";
 @import "./_blockquotes";
 @import "./code.scss";
 

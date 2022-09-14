@@ -119,57 +119,24 @@ small {
   margin: 0;
 }
 
-.text-right {
-  text-align: right;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-justify {
-  text-align: justify;
-}
-
-.text-lowercase {
-  text-transform: lowercase;
-}
-
-.text-uppercase {
-  text-transform: uppercase;
-}
-
-.text-capitalize {
-  text-transform: capitalize;
-}
-
 b,
-strong,
-.bold,
-.strong {
+strong {
   font-weight: 600;
 }
 
 i,
-em,
-.italic {
+em {
   font-style: italic;
 }
 
 del,
 s,
-strike,
-.del {
+strike {
   text-decoration: line-through;
 }
 
 ins,
-u,
-.underlined {
+u {
   text-decoration: underline;
 }
 
