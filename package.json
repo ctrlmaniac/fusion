@@ -1,6 +1,6 @@
 {
   "name": "@ctrlmaniac/rootscss",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Another opinionated css framework",
   "main": "dist/bundle.js",
   "homepage": "https://github.com/ctrlmaniac/rootscss#readme",
