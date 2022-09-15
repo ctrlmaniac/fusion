@@ -16,6 +16,21 @@ body {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
+.m-1 {
+  margin: 1rem;
+}
+.m-2 {
+  margin: 2rem;
+}
+.m-3 {
+  margin: 3rem;
+}
+.m-4 {
+  margin: 4rem;
+}
+.m-5 {
+  margin: 5rem;
+}
 .mx-auto {
   margin-right: auto;
   margin-left: auto;
@@ -137,6 +152,21 @@ body {
   margin-left: 5rem;
 }
 
+.p-1 {
+  padding: 1rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
+}
+.p-4 {
+  padding: 4rem;
+}
+.p-5 {
+  padding: 5rem;
+}
 .px-auto {
   padding-right: auto;
   padding-left: auto;
