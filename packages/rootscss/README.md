@@ -23,3 +23,4 @@ Here's a list of all components
 
 - [Spacing](./docs/utilities/spacing.md)
 - [Breakpoints](./docs/utilities/breakpoints.md)
+- [Display](./docs/utilities/display.md)
