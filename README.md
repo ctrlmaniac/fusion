@@ -14,3 +14,4 @@ Here's a list of all components
 - [Text Utilities](./docs/content/text-utilities.md)
 - [Blockquotes](./docs/content/blockquotes.md)
 - [Lists](./docs/content/lists.md)
+- [Images](./docs/content/images.md)
