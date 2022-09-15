@@ -712,7 +712,7 @@ kbd {
 }
 
 table.table {
-  border-color: #6c757d;
+  border-color: #adb5bd;
 }
 table.table.table-striped tbody tr:nth-child(odd) {
   background-color: #adb5bd;
@@ -725,6 +725,6 @@ table.table.table-dark th,
 table.table.table-dark td {
   border-color: #495057;
 }
-table.table.table-striped tbody tr:nth-child(odd) {
+table.table.table-dark.table-striped tbody tr:nth-child(odd) {
   background-color: #495057;
 }

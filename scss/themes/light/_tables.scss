@@ -1,5 +1,5 @@
 table.table {
-  border-color: $grey;
+  border-color: $light-grey;
 
   &.table-striped {
     tbody {
@@ -17,12 +17,12 @@ table.table {
     td {
       border-color: $dark-grey;
     }
-  }
 
-  &.table-striped {
-    tbody {
-      tr:nth-child(odd) {
-        background-color: $dark-grey;
+    &.table-striped {
+      tbody {
+        tr:nth-child(odd) {
+          background-color: $dark-grey;
+        }
       }
     }
   }
