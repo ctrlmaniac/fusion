@@ -16,3 +16,4 @@ Here's a list of all components
 - [Lists](./docs/content/lists.md)
 - [Code](./docs/content/code.md)
 - [Images](./docs/content/images.md)
+- [Icons](./docs/content/icons.md)
