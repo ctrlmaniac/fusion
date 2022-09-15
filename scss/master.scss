@@ -10,12 +10,12 @@
 @import "./spacing.scss";
 
 // Content
-@import "./_typography.scss";
-@import "./_text-utilities.scss";
-@import "./_blockquotes";
-@import "./_lists.scss";
-@import "./_code.scss";
-@import "./_images.scss";
+@import "./content/_typography.scss";
+@import "./content/_text-utilities.scss";
+@import "./content/_blockquotes";
+@import "./content/_lists.scss";
+@import "./content/_code.scss";
+@import "./content/_images.scss";
 
 // Icons
 @import "./_icons.scss";
