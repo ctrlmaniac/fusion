@@ -22,3 +22,4 @@ Here's a list of all components
 ### Utilities
 
 - [Spacing](./docs/utilities/spacing.md)
+- [Breakpoints](./docs/utilities/breakpoints.md)
