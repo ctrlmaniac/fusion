@@ -10,7 +10,7 @@
 </ul>
 ```
 
-![Unordered list](../assets/content/lists/unordered.png)
+![Unordered list](../assets/content/lists/list-unordered.png)
 
 ## Ordered List
 
@@ -22,7 +22,7 @@
 </ol>
 ```
 
-![Ordered list](../assets/content/lists/ordered.png)
+![Ordered list](../assets/content/lists/list-ordered.png)
 
 ## Definition list
 
