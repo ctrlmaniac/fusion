@@ -2,7 +2,7 @@
 
 example of usage of typography classes
 
-![Headings](./assets/typography/headings.png)
+![Headings](../assets/content/typography/headings.png)
 
 ## Display Headings
 
@@ -48,25 +48,25 @@ You can use the paragraph by simply using the html tag `p`.
 
 There's even a smaller paragraph and you can use it by calling the class `.body-2`.
 
-![subtitles and body](./assets/typography/sub-headings-body.png)
+![subtitles and body](../assets/content/typography/sub-headings-body.png)
 
 ## Links
 
 You can use the link component by simply using the html tag `a`
 
-![link](./assets/typography/links.png)
+![link](../assets/content/typography/links.png)
 
 ## Abbreviations
 
 You can use the abbreviation component by simply using the html tag `abbr`, or the deprecated tag `acronym`.
 
-![abbreviation](./assets/typography/abbr.png)
+![abbreviation](../assets/content/typography/abbr.png)
 
 ## Address
 
 You can use the address component by simply using the html tag `address`.
 
-![address](./assets/typography/address.png)
+![address](../assets/content/typography/address.png)
 
 ## Inline elements
 
@@ -82,4 +82,4 @@ You can use the address component by simply using the html tag `address`.
 
 `sup`, `.sup`
 
-![inline elements](./assets/typography/inline.png)
+![inline elements](../assets/content/typography/inline.png)

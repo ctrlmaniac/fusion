@@ -16,3 +16,31 @@ ol {
     }
   }
 }
+
+dl {
+  dt {
+    font-weight: bold;
+  }
+
+  dd {
+    margin-left: 2rem;
+
+    &:before {
+      content: "—";
+    }
+  }
+
+  &.list-unstyled {
+    dt {
+      font-weight: normal;
+    }
+
+    dd {
+      margin: 0;
+
+      &:before {
+        content: "";
+      }
+    }
+  }
+}

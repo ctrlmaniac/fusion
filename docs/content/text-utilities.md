@@ -1,7 +1,5 @@
 # Text utilities
 
-![text utilities](./assets/text-utilities.png)
-
 ```
 .text-right
 
@@ -29,3 +27,5 @@
 
 .font-weight-light
 ```
+
+![text utilities](../assets/content/text-utilities.png)

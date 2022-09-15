@@ -24,4 +24,4 @@ With footer
 </blockquote>
 ```
 
-![Blockquotes](./assets/blockquotes.png)
+![Blockquotes](../assets/content/blockquotes.png)

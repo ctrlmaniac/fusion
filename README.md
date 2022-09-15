@@ -10,6 +10,7 @@ Here's a list of all components
 
 ### Content
 
-- [Typography](./docs/typography.md)
-- [Text Utilities](./docs/text-utilities.md)
-- [Blockquotes](./docs/blockquotes.md)
+- [Typography](./docs/content/typography.md)
+- [Text Utilities](./docs/content/text-utilities.md)
+- [Blockquotes](./docs/content/blockquotes.md)
+- [Lists](./docs/content/lists.md)
