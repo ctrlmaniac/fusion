@@ -1,0 +1,17 @@
+table {
+  &.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: $radius-md;
+
+    th {
+      text-align: left;
+    }
+
+    th,
+    td {
+      border-bottom: 1px solid;
+      padding: 0.5rem 0.5rem;
+    }
+  }
+}

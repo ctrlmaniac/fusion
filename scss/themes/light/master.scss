@@ -1,8 +1,4 @@
-$white: #fbfef9;
-$black: #191919;
-$info: #00a1e4;
-$warning: #f5b700;
-$highligth: #fcf6b1;
+@import "../variables";
 
 body {
   background-color: $white;
@@ -27,3 +23,5 @@ kbd {
   color: $white;
   border-radius: 4px;
 }
+
+@import "./_tables.scss";

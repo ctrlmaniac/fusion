@@ -17,6 +17,7 @@
 @import "./content/_code.scss";
 @import "./content/_images.scss";
 @import "./content/_icons.scss";
+@import "./content/_tables.scss";
 
 // Layout
 @import "./layout/_container.scss";
@@ -26,4 +27,4 @@
 @import "./components/_navs.scss";
 
 // Default theme
-@import "./themes/light.scss";
+@import "./themes/light/master.scss";

@@ -1,0 +1,29 @@
+table.table {
+  border-color: $grey;
+
+  &.table-striped {
+    tbody {
+      tr:nth-child(odd) {
+        background-color: $light-grey;
+      }
+    }
+  }
+
+  &.table-dark {
+    background-color: $black;
+    color: $white;
+
+    th,
+    td {
+      border-color: $dark-grey;
+    }
+  }
+
+  &.table-striped {
+    tbody {
+      tr:nth-child(odd) {
+        background-color: $dark-grey;
+      }
+    }
+  }
+}
