@@ -1,0 +1,95 @@
+@import "../variables";
+
+.d- {
+  &#{none} {
+    display: none;
+  }
+
+  &#{block} {
+    display: block;
+  }
+
+  &#{inline} {
+    display: inline;
+  }
+
+  &#{inline-block} {
+    display: inline-block;
+  }
+
+  &#{flex} {
+    display: flex;
+  }
+
+  &#{inline-flex} {
+    display: inline-flex;
+  }
+
+  &#{sm-} {
+    @media screen and (max-width: $bp-sm) {
+      &#{none} {
+        display: none;
+      }
+
+      &#{block} {
+        display: block;
+      }
+    }
+    @media screen and (min-width: $bp-sm) {
+      &#{block} {
+        display: none;
+      }
+    }
+  }
+
+  &#{md-} {
+    @media screen and (max-width: $bp-md) {
+      &#{none} {
+        display: none;
+      }
+
+      &#{block} {
+        display: block;
+      }
+    }
+    @media screen and (min-width: $bp-md) {
+      &#{block} {
+        display: none;
+      }
+    }
+  }
+
+  &#{lg-} {
+    @media screen and (max-width: $bp-lg) {
+      &#{none} {
+        display: none;
+      }
+
+      &#{block} {
+        display: block;
+      }
+    }
+    @media screen and (min-width: $bp-lg) {
+      &#{block} {
+        display: none;
+      }
+    }
+  }
+
+  &#{xl-} {
+    @media screen and (max-width: $bp-xl) {
+      &#{none} {
+        display: none;
+      }
+
+      &#{block} {
+        display: block;
+      }
+    }
+    @media screen and (min-width: $bp-xl) {
+      &#{block} {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,46 +1,51 @@
 @import "./_variables.scss";
 
+@mixin reset-container {
+  max-width: 100%;
+  margin: 0 1rem;
+}
+
 .container {
   max-width: 80%;
   margin: 0 auto;
 
-  @media screen and (max-width: $bp-xs) {
-    max-width: 100%;
-    margin: 0 12px;
+  @media screen and (max-width: calc($bp-md + 1rem)) {
+    @include reset-container();
+  }
+
+  &#{-xl} {
+    max-width: $bp-xl;
+    margin: 0 auto;
+
+    @media screen and (max-width: calc($bp-xl + 1rem)) {
+      @include reset-container();
+    }
   }
 
   &#{-lg} {
-    max-width: 100%;
-    margin: 0 12px;
+    max-width: $bp-lg;
+    margin: 0 auto;
+
+    @media screen and (max-width: calc($bp-lg + 1rem)) {
+      @include reset-container();
+    }
   }
 
   &#{-md} {
-    max-width: 60%;
+    max-width: $bp-md;
     margin: 0 auto;
 
-    @media screen and (max-width: $bp-xs) {
-      max-width: 100%;
-      margin: 0 12px;
+    @media screen and (max-width: calc($bp-md + 1rem)) {
+      @include reset-container();
     }
   }
 
   &#{-sm} {
-    max-width: 40%;
+    max-width: $bp-sm;
     margin: 0 auto;
 
-    @media screen and (max-width: $bp-xs) {
-      max-width: 100%;
-      margin: 0 12px;
-    }
-  }
-
-  &#{-xs} {
-    max-width: 25%;
-    margin: 0 auto;
-
-    @media screen and (max-width: $bp-xs) {
-      max-width: 100%;
-      margin: 0 12px;
+    @media screen and (max-width: calc($bp-sm + 1rem)) {
+      @include reset-container();
     }
   }
 }
