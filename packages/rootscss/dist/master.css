@@ -675,6 +675,40 @@ table.table td {
   }
 }
 
+.d-flex.direction-column {
+  flex-direction: column;
+}
+.d-flex.justify-content-center {
+  justify-content: center;
+}
+.d-flex.justify-content-end {
+  justify-content: flex-end;
+}
+.d-flex.justify-content-start {
+  justify-content: start;
+}
+.d-flex.justify-content-between {
+  justify-content: space-between;
+}
+.d-flex.justify-content-around {
+  justify-content: space-around;
+}
+.d-flex.justify-content-evenly {
+  justify-content: space-evenly;
+}
+.d-flex.align-items-start {
+  align-items: flex-start;
+}
+.d-flex.align-items-end {
+  align-items: flex-end;
+}
+.d-flex.align-items-center {
+  align-items: center;
+}
+.d-flex.align-items-stretch {
+  align-items: stretch;
+}
+
 .container {
   max-width: 80%;
   margin: 0 auto;
