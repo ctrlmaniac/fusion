@@ -1,0 +1,45 @@
+{
+  "name": "@ctrlmaniac/rootscss",
+  "version": "0.2.0",
+  "description": "Another opinionated css framework",
+  "main": "dist/bundle.js",
+  "homepage": "https://github.com/ctrlmaniac/rootscss#readme",
+  "directories": {
+    "docs": "docs",
+    "scss": "scss",
+    "ts": "ts"
+  },
+  "files": [
+    "dist/master.css"
+  ],
+  "scripts": {
+    "build": "gulp && npx webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctrlmaniac/rootscss.git"
+  },
+  "keywords": [
+    "css",
+    "scss",
+    "framework"
+  ],
+  "author": "Davide Di Criscito <davide.dicriscito@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ctrlmaniac/rootscss/issues"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.9",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.8.3",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "@ctrlmaniac/vanilla-sidebar": "^1.3.0",
+    "@tabler/icons": "^1.95.1"
+  }
+}
