@@ -18,3 +18,7 @@ Here's a list of all components
 - [Images](./docs/content/images.md)
 - [Icons](./docs/content/icons.md)
 - [Tables](./docs/content/tables.md)
+
+### Utilities
+
+- [Spacing](./docs/utilities/spacing.md)
