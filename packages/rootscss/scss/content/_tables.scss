@@ -10,8 +10,34 @@ table {
 
     th,
     td {
-      border-bottom: 1px solid;
+      border-bottom: 1px solid $light-grey;
       padding: 0.5rem 0.5rem;
+    }
+
+    &.table-striped {
+      tbody {
+        tr:nth-child(odd) {
+          background-color: $light-grey;
+        }
+      }
+    }
+
+    &.table-dark {
+      background-color: $black;
+      color: $white;
+
+      th,
+      td {
+        border-color: $dark-grey;
+      }
+
+      &.table-striped {
+        tbody {
+          tr:nth-child(odd) {
+            background-color: $dark-grey;
+          }
+        }
+      }
     }
   }
 }

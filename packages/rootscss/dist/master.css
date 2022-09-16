@@ -14,10 +14,16 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-color: #fbfef9;
+  color: #191919;
 }
 
 a {
   text-decoration: none;
+  color: #00a1e4;
+}
+a:visited {
+  color: #00a1e4;
 }
 
 a:hover {
@@ -170,6 +176,10 @@ sup,
   font-size: 0.8rem;
 }
 
+mark {
+  background-color: #fcf6b1;
+}
+
 .text-right {
   text-align: right;
 }
@@ -278,6 +288,9 @@ code {
   font-family: "Courier New", Courier, monospace;
   font-weight: 400;
   padding: 0 8px;
+  background-color: #191919;
+  color: #fbfef9;
+  border-radius: 4px;
 }
 
 pre {
@@ -328,8 +341,22 @@ table.table th {
 }
 table.table th,
 table.table td {
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #adb5bd;
   padding: 0.5rem 0.5rem;
+}
+table.table.table-striped tbody tr:nth-child(odd) {
+  background-color: #adb5bd;
+}
+table.table.table-dark {
+  background-color: #191919;
+  color: #fbfef9;
+}
+table.table.table-dark th,
+table.table.table-dark td {
+  border-color: #495057;
+}
+table.table.table-dark.table-striped tbody tr:nth-child(odd) {
+  background-color: #495057;
 }
 
 .m-1 {
@@ -857,45 +884,4 @@ nav.nav.inline ul {
   list-style-type: none;
   justify-content: space-evenly;
   gap: 1rem;
-}
-
-body {
-  background-color: #fbfef9;
-  color: #191919;
-}
-
-a {
-  color: #00a1e4;
-}
-a:visited {
-  color: #00a1e4;
-}
-
-mark {
-  background-color: #fcf6b1;
-}
-
-code,
-kbd {
-  background-color: #191919;
-  color: #fbfef9;
-  border-radius: 4px;
-}
-
-table.table {
-  border-color: #adb5bd;
-}
-table.table.table-striped tbody tr:nth-child(odd) {
-  background-color: #adb5bd;
-}
-table.table.table-dark {
-  background-color: #191919;
-  color: #fbfef9;
-}
-table.table.table-dark th,
-table.table.table-dark td {
-  border-color: #495057;
-}
-table.table.table-dark.table-striped tbody tr:nth-child(odd) {
-  background-color: #495057;
 }
