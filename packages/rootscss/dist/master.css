@@ -810,6 +810,7 @@ button.icon-button {
   bottom: 0;
   right: 0;
   left: 0;
+  box-shadow: none !important;
 }
 .appbar.elevated {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
@@ -822,6 +823,11 @@ button.icon-button {
 }
 .appbar .appbar-title {
   flex-grow: 1;
+}
+.appbar nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
 }
 .appbar nav ul,
 .appbar nav ol {

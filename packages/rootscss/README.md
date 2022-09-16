@@ -25,3 +25,7 @@ Here's a list of all components
 - [Breakpoints](./docs/utilities/breakpoints.md)
 - [Display](./docs/utilities/display.md)
 - [Flex](./docs/utilities/flex.md)
+
+### Components
+
+- [Appbar](./docs/components/appbar.md)
