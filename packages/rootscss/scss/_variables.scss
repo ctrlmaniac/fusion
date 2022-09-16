@@ -11,12 +11,21 @@ $radius-md: 8px;
 $radius-lg: 12px;
 $radius-xl: 18px;
 
-// Default Theme
+// Neutral colors
 $white: #fbfef9;
 $black: #191919;
 $grey: #6c757d;
 $light-grey: #adb5bd;
 $dark-grey: #495057;
+$highligth: #fcf6b1;
+
+// Events
 $info: #00a1e4;
 $warning: #f5b700;
-$highligth: #fcf6b1;
+$error: #b20d30;
+$success: #248232;
+
+// Default palette
+$primary: #5438dc;
+$secondary: #357ded;
+$terziary: #5bc0be;
