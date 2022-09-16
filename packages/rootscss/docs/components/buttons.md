@@ -42,6 +42,12 @@
 
 <div class="container-md pb-5">
   <button class="btn btn-fab"><i class="ti ti-alert-triangle"></i></button>
+  <button class="btn btn-fab-sm">
+    <i class="ti ti-alert-triangle"></i>
+  </button>
+  <button class="btn btn-fab-xl">
+    <i class="ti ti-alert-triangle"></i>
+  </button>
   <button class="btn btn-fab-extended">
     <i class="ti ti-alert-triangle"></i> Enabled
   </button>

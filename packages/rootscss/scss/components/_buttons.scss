@@ -52,8 +52,24 @@ button {
   }
 
   &.btn-fab {
+    font-size: 20px;
+    border-radius: $radius-lg;
+    background-color: lighten($primary, 30%);
+    color: darken($primary, 20%);
+  }
+
+  &.btn-fab-sm {
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: $radius-lg;
+    background-color: lighten($primary, 30%);
+    color: darken($primary, 20%);
+  }
+
+  &.btn-fab-xl {
     padding: 1.5rem;
     font-size: 2rem;
+    border-radius: $radius-lg;
     box-shadow: 0px 1px 2px $dark-grey;
     background-color: lighten($primary, 30%);
     color: darken($primary, 20%);
