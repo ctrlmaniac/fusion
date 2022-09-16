@@ -979,3 +979,27 @@ nav.nav.inline ul {
   justify-content: space-evenly;
   gap: 1rem;
 }
+
+.card {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  background-color: #c1d7fa;
+  border-radius: 8px;
+}
+.card .card-body,
+.card .card-actions {
+  padding: 0.8rem;
+}
+.card .card-body {
+  flex-grow: 1;
+}
+.card .card-actions {
+  display: flex;
+  gap: 8px;
+}
+.card .card-img {
+  border-radius: 8px;
+  max-width: 100%;
+}

@@ -1,0 +1,31 @@
+@import "../variables";
+
+.card {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 0.5rem;
+
+  // Default is filled
+  background-color: lighten($secondary, 30%);
+  border-radius: $radius-md;
+
+  .card-body,
+  .card-actions {
+    padding: 0.8rem;
+  }
+
+  .card-body {
+    flex-grow: 1;
+  }
+
+  .card-actions {
+    display: flex;
+    gap: 8px;
+  }
+
+  .card-img {
+    border-radius: $radius-md;
+    max-width: 100%;
+  }
+}
