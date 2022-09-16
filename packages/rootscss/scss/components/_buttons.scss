@@ -1,14 +1,131 @@
+@import "../variables";
+
+// Reset button
 button {
-  // Reset button
   margin: 0;
   padding: 0;
   background: none;
   background-color: inherit;
   color: inherit;
   border: none;
+}
 
-  &.icon-button {
+.btn {
+  padding: 0.75rem 1rem;
+  background-color: $primary;
+  color: $white;
+  border-radius: $radius-xl;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: $font-family;
+  cursor: pointer;
+
+  &.btn-elevated {
+    background-color: lighten($primary, 40%);
+    color: $primary;
+    box-shadow: 0px 1px 2px $dark-grey;
+  }
+
+  &.btn-tonal {
+    background-color: lighten($primary, 30%);
+    color: darken($primary, 20%);
+  }
+
+  &.btn-outlined {
+    background-color: inherit;
+    color: $primary;
+    border: 1px solid $primary;
+  }
+
+  &.btn-text {
+    border: none;
+    background-color: inherit;
+    color: $primary;
+  }
+
+  &.btn-icon {
+    vertical-align: middle;
+    border: none;
+    background-color: inherit;
+    color: $primary;
     font-size: 24px;
-    cursor: pointer;
+  }
+
+  &.btn-fab {
+    padding: 1.5rem;
+    font-size: 2rem;
+    box-shadow: 0px 1px 2px $dark-grey;
+    background-color: lighten($primary, 30%);
+    color: darken($primary, 20%);
+  }
+
+  &.btn-fab-extended {
+    border-radius: $radius-lg;
+    box-shadow: 0px 1px 2px $dark-grey;
+    background-color: lighten($primary, 30%);
+    color: darken($primary, 20%);
+
+    i {
+      font-size: 24px;
+      vertical-align: middle;
+    }
+  }
+
+  &.btn-error {
+    background-color: $error;
+    color: $white;
+
+    &.btn-outlined {
+      color: $error;
+      border: 1px solid $error;
+      background-color: inherit;
+    }
+
+    &.btn-text {
+      color: $error;
+      border: 0px;
+      background-color: inherit;
+    }
+  }
+
+  &.btn-warning {
+    background-color: $warning;
+    color: $black;
+
+    &.btn-outlined {
+      color: $warning;
+      border: 1px solid $warning;
+      background-color: inherit;
+    }
+
+    &.btn-text {
+      color: $warning;
+      border: 0px;
+      background-color: inherit;
+    }
+  }
+}
+
+.btn-group {
+  display: flex;
+
+  .btn {
+    border-radius: 0px;
+    background: inherit;
+    border: 1px solid $primary;
+    color: $primary;
+
+    &.btn-active {
+      background-color: lighten($primary, 30%);
+      color: darken($primary, 20%);
+    }
+  }
+
+  .btn:first-child {
+    border-radius: $radius-xl 0 0 $radius-xl;
+  }
+
+  .btn:last-child {
+    border-radius: 0 $radius-xl $radius-xl 0;
   }
 }

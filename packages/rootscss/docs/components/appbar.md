@@ -84,7 +84,7 @@ You can put icon buttons too.
 ```html
 <nav class="appbar elevated">
   <div class="container">
-    <button class="icon-button"><i class="ti ti-menu-2"></i></button>
+    <button class="btn btn-icon"><i class="ti ti-menu-2"></i></button>
     <div class="appbar-title">Appbar</div>
     <nav>
       <ul>
