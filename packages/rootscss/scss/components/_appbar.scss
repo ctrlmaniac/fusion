@@ -3,6 +3,7 @@
   min-height: 56px;
   align-items: center;
   background-color: inherit;
+  gap: 1rem;
 
   h1,
   .h1,
@@ -43,11 +44,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-  }
-
-  .leading-icon {
-    cursor: pointer;
-    padding: 8px 24px 8px 8px;
+    gap: 1rem;
   }
 
   .appbar-title {
@@ -55,14 +52,14 @@
   }
 
   nav {
-    padding-right: 24px;
-  }
-
-  .trailing-icon {
-    padding: 8px;
-  }
-
-  .icon {
-    cursor: pointer;
+    ul,
+    ol {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      margin: 0;
+      padding: 0;
+    }
   }
 }
