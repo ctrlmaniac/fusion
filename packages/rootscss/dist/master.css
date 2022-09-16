@@ -760,6 +760,19 @@ table.table td {
   }
 }
 
+button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  background-color: inherit;
+  color: inherit;
+  border: none;
+}
+button.icon-button {
+  font-size: 24px;
+  cursor: pointer;
+}
+
 .appbar {
   display: flex;
   min-height: 56px;
