@@ -1,3 +1,5 @@
+@import "../variables";
+
 .appbar {
   display: flex;
   min-height: 56px;
@@ -38,6 +40,10 @@
     bottom: 0;
     right: 0;
     left: 0;
+  }
+
+  &.elevated {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%), inset 0 -1px 0 rgb(0 0 0 / 15%);
   }
 
   .container {
