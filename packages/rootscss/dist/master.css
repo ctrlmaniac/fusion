@@ -839,16 +839,24 @@ button.icon-button {
   padding: 0;
 }
 
+nav.nav {
+  display: flex;
+  gap: 1rem;
+}
 nav.nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+nav.nav.inline {
+  display: flex;
+  gap: 1rem;
+}
 nav.nav.inline ul {
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
-  gap: 16px;
+  gap: 1rem;
 }
 
 body {

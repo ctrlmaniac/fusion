@@ -29,3 +29,4 @@ Here's a list of all components
 ### Components
 
 - [Appbar](./docs/components/appbar.md)
+- [Navs](./docs/components/navs.md)

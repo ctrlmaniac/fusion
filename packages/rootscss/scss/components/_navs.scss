@@ -1,4 +1,7 @@
 nav.nav {
+  display: flex;
+  gap: 1rem;
+
   ul {
     list-style-type: none;
     margin: 0;
@@ -6,11 +9,14 @@ nav.nav {
   }
 
   &.inline {
+    display: flex;
+    gap: 1rem;
+
     ul {
       display: flex;
       list-style-type: none;
       justify-content: space-evenly;
-      gap: 16px;
+      gap: 1rem;
     }
   }
 }
