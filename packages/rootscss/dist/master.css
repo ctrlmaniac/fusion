@@ -788,6 +788,12 @@ button {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   cursor: pointer;
 }
+.btn[disabled],
+.btn .disabled {
+  border: 0px;
+  background-color: #adb5bd;
+  color: #6c757d;
+}
 .btn.btn-elevated {
   background-color: #e9e5fb;
   color: #5438dc;

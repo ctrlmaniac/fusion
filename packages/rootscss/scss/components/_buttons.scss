@@ -20,6 +20,13 @@ button {
   font-family: $font-family;
   cursor: pointer;
 
+  &[disabled],
+  .disabled {
+    border: 0px;
+    background-color: $light-grey;
+    color: $grey;
+  }
+
   &.btn-elevated {
     background-color: lighten($primary, 40%);
     color: $primary;
