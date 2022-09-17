@@ -2,8 +2,10 @@
   "name": "@ctrlmaniac/fusioncss-web",
   "version": "0.7.1",
   "description": "Another opinionated css framework",
-  "main": "dist/bundle.js",
-  "homepage": "https://github.com/ctrlmaniac/rootscss#readme",
+  "homepage": "https://github.com/ctrlmaniac/fusioncss",
+  "main": "dist/fusioncss.js",
+  "sass": "scss/fusioncss.scss",
+  "style": "dist/fusioncss.css",
   "directories": {
     "docs": "docs",
     "scss": "scss",
