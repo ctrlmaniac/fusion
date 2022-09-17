@@ -30,3 +30,5 @@ Here's a list of all components
 
 - [Appbar](./docs/components/appbar.md)
 - [Navs](./docs/components/navs.md)
+- [Buttons](./docs/components/buttons.md)
+- [Chips](./docs/components/chips.md)
