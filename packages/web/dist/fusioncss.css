@@ -238,7 +238,6 @@ blockquote.blockquote {
 }
 blockquote.blockquote footer {
   font-size: 1rem;
-  font-weight: 100;
 }
 blockquote.blockquote footer cite {
   font-style: italic;
