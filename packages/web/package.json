@@ -1,5 +1,5 @@
 {
-  "name": "@ctrlmaniac/rootscss",
+  "name": "@ctrlmaniac/fusioncss-web",
   "version": "0.7.0",
   "description": "Another opinionated css framework",
   "main": "dist/bundle.js",
