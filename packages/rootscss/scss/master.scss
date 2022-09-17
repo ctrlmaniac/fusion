@@ -15,11 +15,6 @@
 @import "./content/images";
 @import "./content/tables";
 
-// Utilities
-@import "./utilities/spacing";
-@import "./utilities/display";
-@import "./utilities/flex";
-
 // Layout
 @import "./layout/container";
 
@@ -29,3 +24,8 @@
 @import "./components/navs";
 @import "./components/cards";
 @import "./components/chips";
+
+// Utilities
+@import "./utilities/spacing";
+@import "./utilities/display";
+@import "./utilities/flex";

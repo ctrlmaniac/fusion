@@ -55,3 +55,11 @@
 ```
 
 ![Buttons](../assets/components/buttons.png)
+
+## Disabled
+
+```html
+<button class="btn" disabled>disabled</button>
+```
+
+![Disabled](../assets/components/buttons-disabled.png)
