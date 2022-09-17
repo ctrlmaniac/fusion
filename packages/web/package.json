@@ -1,6 +1,6 @@
 {
   "name": "@ctrlmaniac/fusioncss-web",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "Another opinionated css framework",
   "main": "dist/bundle.js",
   "homepage": "https://github.com/ctrlmaniac/rootscss#readme",
