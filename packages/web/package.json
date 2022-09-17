@@ -1,6 +1,6 @@
 {
   "name": "@ctrlmaniac/fusioncss-web",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "Another opinionated css framework",
   "homepage": "https://github.com/ctrlmaniac/fusioncss",
   "main": "dist/fusioncss.js",
