@@ -1,0 +1,48 @@
+@import "../variables";
+
+.chip {
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid $primary;
+  border-radius: $radius-md;
+
+  &.chip-filter {
+    background-color: lighten($primary, 30%);
+    color: darken($primary, 20%);
+    border: 0px;
+  }
+
+  .chip-leading-icon {
+    margin-right: 8px;
+  }
+
+  .chip-trailing-icon {
+    margin-left: 8px;
+  }
+
+  .chip-leading-icon,
+  .chip-trailing-icon {
+    font-size: 1.5rem;
+    vertical-align: middle;
+    color: $primary;
+  }
+
+  &.chip-disabled {
+    border-color: $grey;
+    color: $grey;
+
+    &.chip-filter {
+      border: 0px;
+      background-color: $light-grey;
+      color: $grey;
+
+      .chip-leading-icon,
+      .chip-trailing-icon {
+        color: $grey;
+      }
+    }
+  }
+}

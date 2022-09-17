@@ -1003,3 +1003,43 @@ nav.nav.inline ul {
   border-radius: 8px;
   max-width: 100%;
 }
+
+.chip {
+  display: inline-block;
+  padding: 0.5rem;
+  margin: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border: 1px solid #5438dc;
+  border-radius: 8px;
+}
+.chip.chip-filter {
+  background-color: #c4baf3;
+  color: #2f1a94;
+  border: 0px;
+}
+.chip .chip-leading-icon {
+  margin-right: 8px;
+}
+.chip .chip-trailing-icon {
+  margin-left: 8px;
+}
+.chip .chip-leading-icon,
+.chip .chip-trailing-icon {
+  font-size: 1.5rem;
+  vertical-align: middle;
+  color: #5438dc;
+}
+.chip.chip-disabled {
+  border-color: #6c757d;
+  color: #6c757d;
+}
+.chip.chip-disabled.chip-filter {
+  border: 0px;
+  background-color: #adb5bd;
+  color: #6c757d;
+}
+.chip.chip-disabled.chip-filter .chip-leading-icon,
+.chip.chip-disabled.chip-filter .chip-trailing-icon {
+  color: #6c757d;
+}
