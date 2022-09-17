@@ -1,0 +1,10 @@
+hr,
+.divider {
+  height: 1px;
+  background-color: lighten($primary, 30%);
+}
+
+hr {
+  border: 1px solid;
+  border-color: lighten($primary, 30%);
+}

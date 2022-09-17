@@ -32,3 +32,4 @@ Here's a list of all components
 - [Navs](./docs/components/navs.md)
 - [Buttons](./docs/components/buttons.md)
 - [Chips](./docs/components/chips.md)
+- [Divider](./docs/components/divider.md)

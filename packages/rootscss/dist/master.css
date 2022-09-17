@@ -339,57 +339,6 @@ table.table.table-dark.table-striped tbody tr:nth-child(odd) {
   background-color: #495057;
 }
 
-.container {
-  max-width: 80%;
-  margin: 0 auto;
-}
-@media screen and (max-width: calc(768px + 1rem)) {
-  .container {
-    max-width: 100%;
-    margin: 0 1rem;
-  }
-}
-.container-xl {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-@media screen and (max-width: calc(1200px + 1rem)) {
-  .container-xl {
-    max-width: 100%;
-    margin: 0 1rem;
-  }
-}
-.container-lg {
-  max-width: 1024px;
-  margin: 0 auto;
-}
-@media screen and (max-width: calc(1024px + 1rem)) {
-  .container-lg {
-    max-width: 100%;
-    margin: 0 1rem;
-  }
-}
-.container-md {
-  max-width: 768px;
-  margin: 0 auto;
-}
-@media screen and (max-width: calc(768px + 1rem)) {
-  .container-md {
-    max-width: 100%;
-    margin: 0 1rem;
-  }
-}
-.container-sm {
-  max-width: 480px;
-  margin: 0 auto;
-}
-@media screen and (max-width: calc(480px + 1rem)) {
-  .container-sm {
-    max-width: 100%;
-    margin: 0 1rem;
-  }
-}
-
 button {
   margin: 0;
   padding: 0;
@@ -669,6 +618,68 @@ nav.nav.inline ul {
 .chip.chip-disabled.chip-filter .chip-leading-icon,
 .chip.chip-disabled.chip-filter .chip-trailing-icon {
   color: #6c757d;
+}
+
+hr,
+.divider {
+  height: 1px;
+  background-color: #c4baf3;
+}
+
+hr {
+  border: 1px solid;
+  border-color: #c4baf3;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+@media screen and (max-width: calc(768px + 1rem)) {
+  .container {
+    max-width: 100%;
+    margin: 0 1rem;
+  }
+}
+.container-xl {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+@media screen and (max-width: calc(1200px + 1rem)) {
+  .container-xl {
+    max-width: 100%;
+    margin: 0 1rem;
+  }
+}
+.container-lg {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+@media screen and (max-width: calc(1024px + 1rem)) {
+  .container-lg {
+    max-width: 100%;
+    margin: 0 1rem;
+  }
+}
+.container-md {
+  max-width: 768px;
+  margin: 0 auto;
+}
+@media screen and (max-width: calc(768px + 1rem)) {
+  .container-md {
+    max-width: 100%;
+    margin: 0 1rem;
+  }
+}
+.container-sm {
+  max-width: 480px;
+  margin: 0 auto;
+}
+@media screen and (max-width: calc(480px + 1rem)) {
+  .container-sm {
+    max-width: 100%;
+    margin: 0 1rem;
+  }
 }
 
 .m-1 {

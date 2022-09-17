@@ -15,15 +15,16 @@
 @import "./content/images";
 @import "./content/tables";
 
-// Layout
-@import "./layout/container";
-
 // Components
 @import "./components/buttons";
 @import "./components/appbar";
 @import "./components/navs";
 @import "./components/cards";
 @import "./components/chips";
+@import "./components/divider";
+
+// Layout
+@import "./layout/container";
 
 // Utilities
 @import "./utilities/spacing";
