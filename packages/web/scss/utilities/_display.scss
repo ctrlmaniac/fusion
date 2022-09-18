@@ -25,6 +25,10 @@
     display: inline-flex;
   }
 
+  &#{grid} {
+    display: grid;
+  }
+
   &#{sm-} {
     @media screen and (max-width: $bp-sm) {
       &#{none} {
