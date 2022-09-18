@@ -1,6 +1,6 @@
 # Typography
 
-example of usage of typography classes
+Example of usage of typography classes
 
 ![Headings](../assets/content/typography/headings.png)
 
