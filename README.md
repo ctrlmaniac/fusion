@@ -1,6 +1,8 @@
 # FUSION
 
-Fusion wants to combine the best from **Bootstrap** and from **Material You** into another one opinionated framework.
+![Fusion](fusion.png)
+
+Fusion wants to combine the best from **Bootstrap** and from **Material You** into yet another opinionated framework.
 
 ## Web components
 
