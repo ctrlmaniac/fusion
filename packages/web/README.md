@@ -32,9 +32,10 @@ Here's a list of all components
 ### Components
 
 - [Appbar](./docs/components/appbar.md)
-- [Navs](./docs/components/navs.md)
 - [Buttons](./docs/components/buttons.md)
 - [Chips](./docs/components/chips.md)
-- [Divider](./docs/components/divider.md)
 - [Cards](./docs/components/cards.md)
-- [Windows](./docs/components//windows.md)
+- [Divider](./docs/components/divider.md)
+- [Jumbotrons](./docs/components/jumbotrons.md)
+- [Navs](./docs/components/navs.md)
+- [Windows](./docs/components/windows.md)
