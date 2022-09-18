@@ -1,0 +1,77 @@
+@import "../variables";
+
+.bg-white {
+  background-color: $white;
+  color: $black;
+}
+
+.bg-black {
+  background-color: $black;
+  color: $white;
+}
+
+.bg-grey {
+  background-color: $grey;
+  color: $black;
+}
+
+.bg-light-grey {
+  background-color: $light-grey;
+  color: $black;
+}
+
+.bg-dark-grey {
+  background-color: $dark-grey;
+  color: $white;
+}
+
+.bg-info {
+  background-color: $info;
+  color: $black;
+}
+
+.bg-warning {
+  background-color: $warning;
+  color: $black;
+}
+
+.bg-error {
+  background-color: $error;
+  color: $black;
+}
+
+.bg-success {
+  background-color: $success;
+  color: $black;
+}
+
+.bg-primary {
+  background-color: $primary;
+  color: $white;
+
+  a {
+    color: $highlight;
+  }
+
+  .btn {
+    background-color: $terziary;
+    color: $black;
+  }
+}
+
+.bg-secondary {
+  background-color: $secondary;
+  color: $white;
+
+  a {
+    color: $highlight;
+  }
+}
+
+.bg-terziary {
+  background-color: $terziary;
+
+  a {
+    color: $highlight;
+  }
+}

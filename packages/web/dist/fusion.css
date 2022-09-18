@@ -2507,3 +2507,75 @@ hr {
 .borders {
   border: 1px solid #5438dc;
 }
+
+.bg-white {
+  background-color: #fbfef9;
+  color: #191919;
+}
+
+.bg-black {
+  background-color: #191919;
+  color: #fbfef9;
+}
+
+.bg-grey {
+  background-color: #6c757d;
+  color: #191919;
+}
+
+.bg-light-grey {
+  background-color: #adb5bd;
+  color: #191919;
+}
+
+.bg-dark-grey {
+  background-color: #495057;
+  color: #fbfef9;
+}
+
+.bg-info {
+  background-color: #00a1e4;
+  color: #191919;
+}
+
+.bg-warning {
+  background-color: #f5b700;
+  color: #191919;
+}
+
+.bg-error {
+  background-color: #b20d30;
+  color: #191919;
+}
+
+.bg-success {
+  background-color: #248232;
+  color: #191919;
+}
+
+.bg-primary {
+  background-color: #5438dc;
+  color: #fbfef9;
+}
+.bg-primary a {
+  color: #fcf6b1;
+}
+.bg-primary .btn {
+  background-color: #5bc0be;
+  color: #191919;
+}
+
+.bg-secondary {
+  background-color: #357ded;
+  color: #fbfef9;
+}
+.bg-secondary a {
+  color: #fcf6b1;
+}
+
+.bg-terziary {
+  background-color: #5bc0be;
+}
+.bg-terziary a {
+  color: #fcf6b1;
+}
