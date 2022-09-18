@@ -1,6 +1,6 @@
-# FUSIONCSS
+# FUSION
 
-Fusioncss wants to combine the best from Bootstrap and from Material You into one framework.
+Fusion wants to combine the best from **Bootstrap** and from **Material You** into another one opinionated framework.
 
 ## Web components
 
