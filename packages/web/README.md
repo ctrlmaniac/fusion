@@ -37,3 +37,4 @@ Here's a list of all components
 - [Chips](./docs/components/chips.md)
 - [Divider](./docs/components/divider.md)
 - [Cards](./docs/components/cards.md)
+- [Windows](./docs/components//windows.md)
