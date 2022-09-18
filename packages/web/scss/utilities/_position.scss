@@ -1,0 +1,29 @@
+.p {
+  &-relative {
+    position: relative;
+  }
+
+  &-sticky {
+    position: sticky;
+  }
+
+  &-absolute {
+    position: absolute;
+  }
+}
+
+.top {
+  top: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.left {
+  left: 0;
+}

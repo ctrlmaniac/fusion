@@ -2457,9 +2457,6 @@ hr {
 .d-none {
   display: none;
 }
-.d-absolute {
-  display: absolute;
-}
 .d-block {
   display: block;
 }
@@ -2602,4 +2599,30 @@ hr {
 }
 .bg-terziary a {
   color: #fcf6b1;
+}
+
+.p-relative {
+  position: relative;
+}
+.p-sticky {
+  position: sticky;
+}
+.p-absolute {
+  position: absolute;
+}
+
+.top {
+  top: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.left {
+  left: 0;
 }
