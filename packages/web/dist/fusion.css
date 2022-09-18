@@ -636,6 +636,21 @@ hr {
   min-height: 100vh;
 }
 
+.jumbotron {
+  position: relative;
+  margin: 1rem auto;
+  border-radius: 18px;
+  background-color: #caeaea;
+}
+.jumbotron .jumbotron-body {
+  padding: 3rem 1rem;
+}
+.jumbotron img {
+  border-radius: 18px;
+  width: 100%;
+  vertical-align: bottom;
+}
+
 .container {
   max-width: 80%;
   margin: 0 auto;
@@ -2441,6 +2456,9 @@ hr {
 
 .d-none {
   display: none;
+}
+.d-absolute {
+  display: absolute;
 }
 .d-block {
   display: block;
