@@ -1,6 +1,6 @@
 {
   "name": "@ctrlmaniac/fusion-react",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Another opinionated css framework",
   "keywords": [
     "css",
@@ -38,7 +38,7 @@
     "typescript": "^4.8.3"
   },
   "dependencies": {
-    "@ctrlmaniac/fusion-web": "^0.8.0",
+    "@ctrlmaniac/fusion-web": "^0.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
