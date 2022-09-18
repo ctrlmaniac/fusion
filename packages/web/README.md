@@ -6,6 +6,17 @@ Fusioncss for the web
 
 Here's a list of all components
 
+### Utilities
+
+- [Spacing](./docs/utilities/spacing.md)
+- [Breakpoints](./docs/utilities/breakpoints.md)
+- [Display](./docs/utilities/display.md)
+- [Flex](./docs/utilities/flex.md)
+
+## Layout
+
+- [Grid](./docs/layout/grid.md)
+
 ### Content
 
 - [Typography](./docs/content/typography.md)
@@ -17,13 +28,6 @@ Here's a list of all components
 - [Icons](./docs/content/icons.md)
 - [Tables](./docs/content/tables.md)
 
-### Utilities
-
-- [Spacing](./docs/utilities/spacing.md)
-- [Breakpoints](./docs/utilities/breakpoints.md)
-- [Display](./docs/utilities/display.md)
-- [Flex](./docs/utilities/flex.md)
-
 ### Components
 
 - [Appbar](./docs/components/appbar.md)
@@ -31,3 +35,4 @@ Here's a list of all components
 - [Buttons](./docs/components/buttons.md)
 - [Chips](./docs/components/chips.md)
 - [Divider](./docs/components/divider.md)
+- [Cards](./docs/components/cards.md)
