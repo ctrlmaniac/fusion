@@ -1,5 +1,7 @@
 # FUSION WEB
 
+![Fusion Web](fusion.png)
+
 Fusion framework for the web
 
 ## Docs

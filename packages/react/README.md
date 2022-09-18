@@ -1,3 +1,5 @@
 # Fusion
 
-Another opinionated css framework for React.
+![React](fusion.png)
+
+Fusion framework for React.
