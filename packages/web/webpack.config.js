@@ -15,7 +15,7 @@ module.exports = {
     extensions: [".tsx", ".ts", ".js"],
   },
   output: {
-    filename: "fusioncss.js",
+    filename: "fusion.js",
     path: path.resolve(__dirname, "dist"),
   },
 };

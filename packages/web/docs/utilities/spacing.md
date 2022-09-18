@@ -1,6 +1,6 @@
 # Spacing
 
-Here a list of some spacing utilities. They all are set to 1rem multiples.
+Here's a list of some spacing utilities. They all are set to 1rem multiples.
 
 ## Margin
 

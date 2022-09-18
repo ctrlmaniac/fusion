@@ -1142,6 +1142,11 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
+"@ctrlmaniac/grid@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@ctrlmaniac/grid/-/grid-1.1.0.tgz#3a51671e73518eb97fa05256e9ccf8e2e4766db9"
+  integrity sha512-yc78LdKGEQZ/9sbsq4FANaheKUuFZpx2gaVW5lLRaCQxCHYEq41+hQeD+0G6h0upAiddeiVwIsZE2IHc2RUZHw==
+
 "@ctrlmaniac/vanilla-sidebar@^1.3.0":
   version "1.3.6"
   resolved "https://registry.yarnpkg.com/@ctrlmaniac/vanilla-sidebar/-/vanilla-sidebar-1.3.6.tgz#b21699d8dd672fa5f9318f07ca7bedf76deb0811"

@@ -1,11 +1,3 @@
-# `react`
+# Fusion
 
-> TODO: description
-
-## Usage
-
-```
-const react = require('react');
-
-// TODO: DEMONSTRATE API
-```
+Another opinionated css framework for React.

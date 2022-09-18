@@ -1,5 +1,5 @@
 {
-  "name": "@ctrlmaniac/fusioncss-react",
+  "name": "@ctrlmaniac/fusion-react",
   "version": "0.4.0",
   "description": "Another opinionated css framework",
   "keywords": [
@@ -7,12 +7,12 @@
     "framework"
   ],
   "author": "Davide Di Criscito <davide.dicriscito@gmail.com>",
-  "homepage": "https://github.com/ctrlmaniac/fusioncss",
+  "homepage": "https://github.com/ctrlmaniac/fusion",
   "license": "MIT",
-  "main": "dist/fusioncss",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ctrlmaniac/fusioncss.git"
+    "url": "git+https://github.com/ctrlmaniac/fusion.git"
   },
   "scripts": {
     "storybook": "start-storybook -p 6006",
@@ -20,7 +20,7 @@
     "build": "npx tsc"
   },
   "bugs": {
-    "url": "https://github.com/ctrlmaniac/fusioncss/issues"
+    "url": "https://github.com/ctrlmaniac/fusion/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.19.1",
@@ -38,7 +38,7 @@
     "typescript": "^4.8.3"
   },
   "dependencies": {
-    "@ctrlmaniac/fusioncss-web": "^0.7.4",
+    "@ctrlmaniac/fusion-web": "^0.7.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

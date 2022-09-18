@@ -1,6 +1,6 @@
 # Display flex
 
-along with `.display-flex` there are some other classes that will help you manage elements inside a flex container.
+Along with `.display-flex` there are some other classes that will help you manage elements inside a flex container.
 
 `.direction-colum`
 

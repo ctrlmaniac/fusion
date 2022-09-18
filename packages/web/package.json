@@ -1,19 +1,16 @@
 {
-  "name": "@ctrlmaniac/fusioncss-web",
+  "name": "@ctrlmaniac/fusion-web",
   "version": "0.7.4",
   "description": "Another opinionated css framework",
-  "homepage": "https://github.com/ctrlmaniac/fusioncss",
-  "main": "dist/fusioncss.js",
-  "sass": "scss/fusioncss.scss",
-  "style": "dist/fusioncss.css",
+  "homepage": "https://github.com/ctrlmaniac/fusion",
+  "main": "dist/fusion.js",
+  "sass": "scss/fusion.scss",
+  "style": "dist/fusion.css",
   "directories": {
     "docs": "docs",
     "scss": "scss",
     "ts": "ts"
   },
-  "files": [
-    "dist/master.css"
-  ],
   "scripts": {
     "build": "gulp && npx webpack"
   },
@@ -41,6 +38,7 @@
     "webpack-cli": "^4.10.0"
   },
   "dependencies": {
+    "@ctrlmaniac/grid": "^1.1.0",
     "@ctrlmaniac/vanilla-sidebar": "^1.3.0",
     "@tabler/icons": "^1.95.1"
   }

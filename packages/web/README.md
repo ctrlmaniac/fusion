@@ -1,6 +1,6 @@
-# FUSIONCSS WEB
+# FUSION WEB
 
-Fusioncss for the web
+Fusion framework for the web
 
 ## Docs
 
