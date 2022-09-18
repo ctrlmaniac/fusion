@@ -630,6 +630,12 @@ hr {
   border-color: #c4baf3;
 }
 
+.window {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
 .container {
   max-width: 80%;
   margin: 0 auto;
