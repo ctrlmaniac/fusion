@@ -6,6 +6,11 @@
   border-radius: $radius-xl;
   background-color: lighten($terziary, 30%);
 
+  &.outlined {
+    background-color: inherit;
+    border: 1px solid $terziary;
+  }
+
   .jumbotron-body {
     padding: 3rem 1rem;
   }

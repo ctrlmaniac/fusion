@@ -642,6 +642,10 @@ hr {
   border-radius: 18px;
   background-color: #caeaea;
 }
+.jumbotron.outlined {
+  background-color: inherit;
+  border: 1px solid #5bc0be;
+}
 .jumbotron .jumbotron-body {
   padding: 3rem 1rem;
 }
