@@ -1,0 +1,36 @@
+@import "../variables";
+
+.accordion {
+  border: 1px solid $primary;
+  border-radius: $radius-md;
+
+  .accordion-item:not(:last-child) {
+    border-bottom: 1px solid $primary;
+  }
+
+  .accordion-header,
+  .accordion-body {
+    padding: 1rem;
+  }
+
+  .accordion-header {
+    &[data-active="active"] {
+      background-color: lighten($primary, 30%);
+    }
+  }
+
+  .accordion-body {
+    border-top: 1px solid $primary;
+    transition: display 0.5s ease-out;
+
+    &[data-collapse="collapse"] {
+      display: none;
+      opacity: 0;
+    }
+
+    &[data-collapse="show"] {
+      display: block;
+      opacity: 1;
+    }
+  }
+}

@@ -655,6 +655,33 @@ hr {
   vertical-align: bottom;
 }
 
+.accordion {
+  border: 1px solid #5438dc;
+  border-radius: 8px;
+}
+.accordion .accordion-item:not(:last-child) {
+  border-bottom: 1px solid #5438dc;
+}
+.accordion .accordion-header,
+.accordion .accordion-body {
+  padding: 1rem;
+}
+.accordion .accordion-header[data-active=active] {
+  background-color: #c4baf3;
+}
+.accordion .accordion-body {
+  border-top: 1px solid #5438dc;
+  transition: display 0.5s ease-out;
+}
+.accordion .accordion-body[data-collapse=collapse] {
+  display: none;
+  opacity: 0;
+}
+.accordion .accordion-body[data-collapse=show] {
+  display: block;
+  opacity: 1;
+}
+
 .container {
   max-width: 80%;
   margin: 0 auto;
