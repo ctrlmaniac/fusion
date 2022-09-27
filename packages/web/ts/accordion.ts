@@ -1,30 +1,26 @@
-let accordionHeaders = document.getElementsByClassName("accordion-header");
+let accordions = document.getElementsByClassName("accordion");
 
-for (let header of accordionHeaders) {
-  let accordion = header.parentElement?.parentElement as HTMLElement;
-  let bodies = accordion?.getElementsByClassName("accordion-body");
+for (let accordion of accordions) {
+  let items = accordion.children;
 
-  header.addEventListener("click", (ev) => {
-    let target = ev.target as HTMLElement;
-    let body = target.nextElementSibling as HTMLElement;
-    let status = body.getAttribute("data-collapse");
+  for (let item of items) {
+    let header = item.firstElementChild;
 
-    if (status === "collapse") {
-      // Close all current opened bodies
-      for (let otherBody of bodies) {
-        otherBody.setAttribute("data-collapse", "collapse");
+    header?.addEventListener("click", (ev) => {
+      let attribute = item.getAttribute("data-collapse");
+
+      if (attribute === "collapse" || attribute === null) {
+        // Close all opened items
+        for (let otherItem of items) {
+          if (otherItem.getAttribute("data-collapse") === "show") {
+            otherItem.setAttribute("data-collapse", "collapse");
+          }
+        }
+
+        item.setAttribute("data-collapse", "show");
+      } else {
+        item.setAttribute("data-collapse", "collapse");
       }
-
-      // Deactivate other active headers
-      for (let otherHeader of accordionHeaders) {
-        otherHeader.removeAttribute("data-active");
-      }
-
-      body.setAttribute("data-collapse", "show");
-      target.setAttribute("data-active", "active");
-    } else {
-      body.setAttribute("data-collapse", "collapse");
-      header.removeAttribute("data-active");
-    }
-  });
+    });
+  }
 }
