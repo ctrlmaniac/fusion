@@ -41,3 +41,4 @@ Here's a list of all components
 - [Jumbotrons](./docs/components/jumbotrons.md)
 - [Navs](./docs/components/navs.md)
 - [Windows](./docs/components/windows.md)
+- [Accordions](./docs/components/accordions.md)
